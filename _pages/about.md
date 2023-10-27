@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student at the [Indian Institute of Technology (IIT) Kharagpur](http://www.iitkgp.ac.in/) where I'm pursuing an Integrated MSc. course in Mathematics and Computing. My research vision has been shaped by my research experience at the Max Planck Institute for Intelligent Systems, University of Warwick, NVIDIA, Harvard University, and IIT Kharagpur, having interests in board areas of deep learning and computer vision. I also am interested in using AI to aid and support social causes.
+I am a final-year undergraduate student at the [Indian Institute of Technology (IIT) Kharagpur](http://www.iitkgp.ac.in/) where I'm pursuing an Integrated MSc. course in Mathematics and Computing. My research vision has been shaped by my research experience at the Max Planck Institute for Intelligent Systems, University of Warwick, NVIDIA, Harvard University, and IIT Kharagpur, having interests in board areas of **computer vision** and **deep learning**. I also am interested in using AI to aid and support social causes.
 
 Feel free to drop me an [e-mail](mailto:karan.uppal3@gmail.com) if you want to chat with me!
 
