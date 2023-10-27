@@ -9,7 +9,7 @@ author_profile: true
 
 <div style="display: flex; align-items: center;"> 
     <div style="flex: 1;"> 
-        ![Project Logo](https://karan-uppal3.github.io/images/mpi.jpg)
+        <img src="karan-uppal3/karan-uppal3.github.io/images/mpi.jpg" alt="Project Logo">
     </div> 
     <div style="flex: 3;"> 
         **Project Title:** [Replace with Project Title](Link to the project) 
