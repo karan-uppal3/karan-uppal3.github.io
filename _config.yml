@@ -81,40 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Karan Uppal"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Final year undergraduate student at IIT Kharagpur"
   location         : "West Bengal, India"
-  employer         :
-  pubmed           : 
-  googlescholar    : 
   email            : "karan.uppal3@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : "karan-uppal3"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
   LinkedIn         : "https://www.linkedin.com/in/karan-uppal3/"
-  orcid            : 
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files
