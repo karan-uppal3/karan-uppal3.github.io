@@ -13,6 +13,22 @@ author_profile: true
         <tr>
             <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
+                    <img src='https://karan-uppal3.github.io/images/warwick.png' width="120">
+                </div>
+            </td>
+            <td style="border:none;padding:10px;width:75%;vertical-align:top">
+                <papertitle><big>DSSG Fellow</big> </papertitle> <papertitle ><big> | Data Science for Social Good</big></papertitle>
+                <br>
+                May '22 - July '22
+                <br>
+                <p>Collaborated with <a href="https://www.un-redd.org/" target="_blank">United Nations Collaborative Programme on Reducing Emissions from Deforestation and Forest Degradation (UN-REDD)</a> at the University of Warwick.</p>
+                <p>Project Title: Predicting Deforestation in the Brazillian Amazon at high-resolution</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:none;padding:10px;width:25%;vertical-align:middle">
+                <div class="one">
                     <img src='https://karan-uppal3.github.io/images/mpi.jpg' width="120">
                 </div>
             </td>

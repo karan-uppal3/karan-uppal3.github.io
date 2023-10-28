@@ -7,10 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-* **Advancements in Attention Decoding Using the MOET Dataset: A Comparative Study** *(Under review)*<br/>
-Karan Uppal, Shashank Singh.<br>
-Accepted at the Gaze Meets ML Workshop at **NeurIPS 2023**.<br>
-
 * **Decoding Attention from Gaze: A Benchmark Dataset and End-to-End Models**<br/>
 Karan Uppal, Jaeah Kim, Shashank Singh.<br>
 Accepted at the Gaze Meets ML Workshop at **NeurIPS 2022**.<br> [[Paper](https://arxiv.org/abs/2211.10966)] [[Code](https://github.com/karan-uppal3/decoding-attention)] [[Dataset](https://osf.io/28rnx/)]
