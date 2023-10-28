@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<table border=0 class="bg_colour" style="padding:20px;width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<table border=0 class="bg_colour" style="padding:20px;width:100%;border:none;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
     <tbody>
 
         <tr>
