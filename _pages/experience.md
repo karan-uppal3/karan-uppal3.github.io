@@ -7,16 +7,16 @@ author_profile: true
 
 {% include base_path %}
 
-<table border=0 class="bg_colour" style="padding:20px;width:100%;border:none;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
+<table border=0 class="bg_colour" style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
 
         <tr>
-            <td style="padding:10px;width:25%;vertical-align:middle">
+            <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
                     <img src='https://karan-uppal3.github.io/images/mpi.jpg' width="120">
                 </div>
             </td>
-            <td style="padding:10px;width:75%;vertical-align:top">
+            <td style="border:none;padding:10px;width:75%;vertical-align:top">
                 <papertitle><big>Research Intern</big> </papertitle> <papertitle ><big> | Max Planck Institute for Intelligent Systems</big></papertitle>
                 <br>
                 May '22 - July '22
@@ -27,12 +27,12 @@ author_profile: true
         </tr>
 
         <tr>
-            <td style="padding:10px;width:25%;vertical-align:middle">
+            <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
                     <img src='https://karan-uppal3.github.io/images/nvidia.png' width="120">
                 </div>
             </td>
-            <td style="padding:10px;width:75%;vertical-align:top">
+            <td style="border:none;padding:10px;width:75%;vertical-align:top">
                 <papertitle><big>Applied Research Intern</big> </papertitle> <papertitle ><big> | NVIDIA WWFO</big></papertitle>
                 <br>
                 August '21 - December '21
@@ -43,12 +43,12 @@ author_profile: true
         </tr>
 
         <tr>
-            <td style="padding:10px;width:25%;vertical-align:middle">
+            <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
                     <img src='https://karan-uppal3.github.io/images/harvard.png' width="120">
                 </div>
             </td>
-            <td style="padding:10px;width:75%;vertical-align:top">
+            <td style="border:none;padding:10px;width:75%;vertical-align:top">
                 <papertitle><big>Research Associate</big> </papertitle> <papertitle ><big> | Harvard University</big></papertitle>
                 <br>
                 May '21 - August '21
@@ -66,12 +66,12 @@ author_profile: true
         </tr>
 
         <tr>
-            <td style="padding:10px;width:25%;vertical-align:middle">
+            <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
                     <img src='https://karan-uppal3.github.io/images/kgp.png' width="120">
                 </div>
             </td>
-            <td style="padding:10px;width:75%;vertical-align:top">
+            <td style="border:none;padding:10px;width:75%;vertical-align:top">
                 <papertitle><big>Student Researcher</big> </papertitle> <papertitle><big> | IIT Kharagpur</big></papertitle>
                 <br>
                 October '20 - April '21
@@ -88,12 +88,12 @@ author_profile: true
         </tr>
 
         <tr>
-            <td style="padding:10px;width:25%;vertical-align:middle">
+            <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
                     <img src='https://karan-uppal3.github.io/images/yantrakaar.jpg' width="120">
                 </div>
             </td>
-            <td style="padding:10px;width:75%;vertical-align:top">
+            <td style="border:none;padding:10px;width:75%;vertical-align:top">
                 <papertitle><big>Cloud Computing and Vision Developer</big> </papertitle> <papertitle><big> | Yantrakaar Technologies</big></papertitle>
                 <br>
                 June '20 - August '20
