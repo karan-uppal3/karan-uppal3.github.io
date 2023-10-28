@@ -21,6 +21,7 @@ author_profile: true
                 <img src='https://karan-uppal3.github.io/images/MPI_img.gif' width="160">
             </div>
             <script type="text/javascript">
+
                 function mpi_start() {
                     document.getElementById('mpi_image').style.opacity = "1";
                 }
@@ -29,6 +30,7 @@ author_profile: true
                     document.getElementById('mpi_image').style.opacity = "0";
                 }
                 mpi_stop()
+
             </script>
         </td>
         <td style="border:none;padding:20px;width:75%;vertical-align:top">
@@ -51,6 +53,7 @@ author_profile: true
                 <img src="https://karan-uppal3.github.io/images/BANA_1.jpg" width="160">
             </div>
             <script type="text/javascript">
+
                 function bana_start() {
                     document.getElementById('bana_image').style.opacity = "1";
                 }
@@ -58,6 +61,7 @@ author_profile: true
                     document.getElementById('bana_image').style.opacity = "0";
                 }
                 bana_stop()
+
             </script>
         </td>
         <td style="border:none;padding:20px;width:75%;vertical-align:top">
@@ -84,6 +88,7 @@ author_profile: true
                 <img src="https://karan-uppal3.github.io/images/EM_1.png" width="160">
             </div>
             <script type="text/javascript">
+
                 function em_start() {
                     document.getElementById('em_image').style.opacity = "1";
                 }
@@ -91,6 +96,7 @@ author_profile: true
                     document.getElementById('em_image').style.opacity = "0";
                 }
                 em_stop()
+
             </script>
         </td>
         <td style="border:none;padding:20px;width:75%;vertical-align:top">
@@ -114,6 +120,7 @@ author_profile: true
                 <img src="https://karan-uppal3.github.io/images/FDA_1.png" width="160">
             </div>
             <script type="text/javascript">
+
                 function fda_start() {
                     document.getElementById('fda_image').style.opacity = "1";
                 }
@@ -121,6 +128,7 @@ author_profile: true
                     document.getElementById('fda_image').style.opacity = "0";
                 }
                 fda_stop()
+
             </script>
         </td>
         <td style="border:none;padding:20px;width:75%;vertical-align:top">
@@ -147,6 +155,7 @@ author_profile: true
                 <img src='https://karan-uppal3.github.io/images/GA_Project.png' width="160">
             </div>
             <script type="text/javascript">
+
                 function ga_start() {
                     document.getElementById('ga_image').style.opacity = "1";
                 }
@@ -156,6 +165,7 @@ author_profile: true
                 }
 
                 ga_stop()
+
             </script>
         </td>
         <td style="border:none;padding:20px;width:75%;vertical-align:top">
@@ -180,6 +190,7 @@ author_profile: true
                 <img src="https://karan-uppal3.github.io/images/SegD_1.png" width="160">
             </div>
             <script type="text/javascript">
+
                 function segd_start() {
                     document.getElementById('segd_image').style.opacity = "1";
                 }
@@ -187,6 +198,7 @@ author_profile: true
                     document.getElementById('segd_image').style.opacity = "0";
                 }
                 segd_stop()
+                
             </script>
         </td>
         <td style="border:none;padding:20px;width:75%;vertical-align:top">
