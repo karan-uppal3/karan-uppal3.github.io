@@ -13,7 +13,7 @@ author_profile: true
         <tr>
             <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
-                    <img src='https://karan-uppal3.github.io/images/Maxout_blog.png' width="120">
+                    <img src='https://karan-uppal3.github.io/images/Maxout_Blog.png' width="120">
                 </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:top">
@@ -69,7 +69,7 @@ author_profile: true
         <tr>
             <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
-                    <img src='https://karan-uppal3.github.io/images/AlexNet_blog.png' width="120">
+                    <img src='https://karan-uppal3.github.io/images/AlexNet_blog.jpg' width="120">
                 </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:top">
