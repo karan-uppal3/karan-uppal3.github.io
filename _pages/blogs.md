@@ -16,7 +16,7 @@ author_profile: true
                     <img src='https://karan-uppal3.github.io/images/Maxout_Blog.png' width="120">
                 </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
+            <td style="border:none;padding:20px;width:75%;vertical-align:top">
                 <papertitle><big>Paper Summary: Maxout Networks</big></papertitle>
                 <a href="https://karan3-zoh.medium.com/paper-summary-maxout-networks-c9a08ef6d078">[link]</a>
                 <br>
@@ -30,7 +30,7 @@ author_profile: true
                     <img src='https://karan-uppal3.github.io/images/Adam_Blog.png' width="120">
                 </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
+            <td style="border:none;padding:20px;width:75%;vertical-align:top">
                 <papertitle><big>Paper Summary: Adam: A Method for Stochastic Optimization</big></papertitle>
                 <a href="https://karan3-zoh.medium.com/paper-summary-adam-a-method-for-stochastic-optimization-4b0a030a019f">[link]</a>
                 <br>
@@ -44,7 +44,7 @@ author_profile: true
                     <img src='https://karan-uppal3.github.io/images/Momentum_Blog.png' width="120">
                 </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
+            <td style="border:none;padding:20px;width:75%;vertical-align:top">
                 <papertitle><big>Paper Summary: On the importance of initialization and momentum in deep learning</big></papertitle>
                 <a href="https://karan3-zoh.medium.com/paper-summary-on-the-importance-of-initialization-and-momentum-in-deep-learning-8b8121d21aa9">[link]</a>
                 <br>
@@ -58,7 +58,7 @@ author_profile: true
                     <img src='https://karan-uppal3.github.io/images/Xavier_Blog.png' width="120">
                 </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
+            <td style="border:none;padding:20px;width:75%;vertical-align:top">
                 <papertitle><big>Paper Summary: Understanding the difficulty of training deep feedforward neural networks</big></papertitle>
                 <a href="https://karan3-zoh.medium.com/paper-summary-understanding-the-difficulty-of-training-deep-feedforward-neural-networks-6f184ba5e6d6">[link]</a>
                 <br>
@@ -72,7 +72,7 @@ author_profile: true
                     <img src='https://karan-uppal3.github.io/images/AlexNet_blog.jpg' width="120">
                 </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
+            <td style="border:none;padding:20px;width:75%;vertical-align:top">
                 <papertitle><big>Paper Summary: ImageNet Classification with Deep Convolutional Neural Networks</big></papertitle>
                 <a href="https://karan3-zoh.medium.com/paper-summary-imagenet-classification-with-deep-convolutional-neural-networks-41ce6c65960?source=friends_link&sk=f24a55d37c517be6ec391556e30a55be">[link]</a>
                 <br>
