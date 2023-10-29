@@ -66,7 +66,7 @@ author_profile: true
                 </div>
             </td>
             <td style="border:none;padding:10px;width:75%;vertical-align:top">
-                <papertitle><big>Semi-supervised Instance Segmentation for EM Connectomics</papertitle></big></papertitle>
+                <papertitle><big>Semi-supervised Instance Segmentation for EM Connectomics</big></papertitle>
                 <p><em>Manuscript under progess.</em> <a href="https://github.com/zudi-lin/pytorch_connectomics" target="_blank">[code]</a> </p>
                 <p>
                     We experimented with different variants of the UNet 3D model for the task of instance segmentation on brain volumes for synaptic cleft detection on the CREMI dataset.
@@ -83,7 +83,7 @@ author_profile: true
                 </div>
             </td>
             <td style="border:none;padding:10px;width:75%;vertical-align:top">
-                <papertitle><big>Review of “FDA: Fourier Domain Adaptation for Semantic Segmentation”</papertitle></big>
+                <papertitle><big>Review of “FDA: Fourier Domain Adaptation for Semantic Segmentation”</big></papertitle>
                 <p><a href="https://openreview.net/pdf?id=MBIIiRE0EXv" target="_blank">[report]</a> <a href="https://github.com/thefatbandit/FDA">[code]</a></p>
                 <p>
                     Undertaken as part of the
