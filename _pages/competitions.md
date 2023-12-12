@@ -9,7 +9,6 @@ author_profile: true
 
 <table border=0 class="bg_colour" style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
-
         <tr>
             <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -27,7 +26,6 @@ author_profile: true
                 </p>
             </td>
         </tr>
-
         <tr>
             <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -45,7 +43,6 @@ author_profile: true
                 </p>
             </td>
         </tr> 
-
         <tr>
             <td style="border:none;padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -65,6 +62,5 @@ author_profile: true
                 </p>
             </td>
         </tr> 
-
     </tbody>
 </table>
