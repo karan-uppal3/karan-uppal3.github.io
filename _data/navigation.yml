@@ -13,7 +13,7 @@ main:
     url: /competitions/
         
   - title: "Blogs"
-    url: /blogs/
+    url: https://karan3-zoh.medium.com/
     
   - title: "CV"
     url: /files/Karan_Resume.pdf
