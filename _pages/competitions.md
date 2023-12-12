@@ -20,6 +20,7 @@ author_profile: true
                 <br>
                 <p>
                 Data Science Track
+                </p>
                 <p>
                     We bagged the 2nd place out of more than 3500+ teams for the task of predicting the time to default for a credit card customer. 
                     Utilising a gradient boosting ensemble, we were able to achieve an accuracy of 82.4%, battling the heavy dataset imbalance present.
@@ -53,7 +54,7 @@ author_profile: true
                 <papertitle><big>Bosch Traffic Sign Recognition - Inter IIT Tech Meet 2021</big></papertitle>
                 <br>
                 <p>
-                <a href="https://docs.google.com/presentation/d/16OSg_8TV-wQE-AcC5EW-Ps2VyRgmTN0IcI9ad83_Zdk/edit?usp=sharing" target="_blank">[report]</a> <a href="https://docs.google.com/presentation/d/1K0q49oas5B8zeAQw4DGKnZdgiNqgWkfQtNnrooQZnaA/edit?usp=sharing" target="_blank">[slides]</a> <a href="https://github.com/yash12khandelwal/traffic_sign_interiit" target="_blank">[code]</a>
+                <a href="https://docs.google.com/presentation/d/16OSg_8TV-wQE-AcC5EW-Ps2VyRgmTN0IcI9ad83_Zdk/edit?usp=sharing" target="_blank">[report]</a> <a href="https://docs.google.com/presentation/d/1K0q49oas5B8zeAQw4DGKnZdgiNqgWkfQtNnrooQZnaA/edit?usp=sharing" target="_blank">[slides]</a> <a href="https://github.com/yash12khandelwal/traffic_sign_interiit" target="_blank">[code]</a></p>
                 <p>
                     We bagged the bronze medal among 23 competing IITs in the high prep event. 
                     The aim was to develop a website to help train and monitor a model on a traffic sign recognition dataset, 
