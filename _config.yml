@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Karan Uppal's Homepage"
+title                    : "Prakash Sankhla's Homepage"
 title_separator          : "-"
-name                     : &name "Karan Uppal"
+name                     : &name "Prakash Sankhla"
 description              : &description "final year undergraduate student"
-url                      : https://karan-uppal3.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://prakash-sankhla.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "karan-uppal3.github.io"
+repository               : "prakash-sankhla.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Karan Uppal"
+  name             : "Prakash Sankhla"
   avatar           : "profile.jpg"
   bio              : "Final year undergraduate student at IIT Kharagpur"
   location         : "West Bengal, India"
-  email            : "karan.uppal3@gmail.com"
-  github           : "karan-uppal3"
-  LinkedIn         : "https://www.linkedin.com/in/karan-uppal3/"
+  email            : "prakashsankhla0601@gmail.com"
+  github           : "prakash601"
+  LinkedIn         : "https://www.linkedin.com/in/prakash-sankhla/"
 
 
 # Reading Files
