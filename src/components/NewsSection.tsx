@@ -1,37 +1,45 @@
 const newsItems = [
   {
-    date: "07/2025",
-    text: "Invited talk at the",
-    link: { text: "ICML Workshop on Machine Learning", url: "#" },
+    date: "Jul 2024",
+    text: "Started as Research Fellow at",
+    link: { text: "Microsoft Research India", url: "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" },
+    location: "working on VLMs and embedding architectures",
   },
   {
-    date: "11/2024",
-    text: "Research featured in",
-    link: { text: "Nature Magazine", url: "#" },
+    date: "May 2024",
+    text: "Graduated from",
+    link: { text: "IIT Kharagpur", url: "http://www.iitkgp.ac.in/" },
+    location: "with Integrated M.Sc. in Mathematics and Computing (CGPA: 9.18/10.0)",
   },
   {
-    date: "11/2024",
-    text: "Invited talk at the",
-    link: { text: "Conference on Neural Information Processing", url: "#" },
+    date: "Apr 2024",
+    text: "Completed AI Residency at",
+    link: { text: "Ema (YC S23)", url: "#" },
+    location: "focusing on agentic AI and LLM-powered enterprise solutions",
   },
   {
-    date: "10/2024",
-    text: "Invited talk at",
-    link: { text: "Stanford AI Lab", url: "#" },
-    location: "in San Francisco",
+    date: "Aug 2023",
+    text: "Concluded fellowship at",
+    link: { text: "University of Warwick and UN-REDD", url: "#" },
+    location: "as Data Science for Social Good Fellow",
   },
   {
-    date: "09/2024",
-    text: "Excited to be part of the cohorts of",
-    links: [
-      { text: "Rising Stars in EECS", url: "#" },
-      { text: "Rising Stars in Data Science", url: "#" },
-      { text: "Rising Stars in AI", url: "#" },
-    ],
+    date: "Jul 2022",
+    text: "Completed DAAD WISE Scholarship at",
+    link: { text: "Max Planck Institute for Intelligent Systems", url: "https://is.mpg.de/" },
+    location: "in Tübingen, Germany",
   },
   {
-    date: "06/2024",
-    text: "Invited talk at Google DeepMind Research Seminar",
+    date: "Aug 2021",
+    text: "Research internship at",
+    link: { text: "Harvard University", url: "https://vcg.seas.harvard.edu/" },
+    location: "achieving 1st place on CREMI leaderboard",
+  },
+  {
+    date: "Nov 2022",
+    text: "2nd place in",
+    link: { text: "American Express Campus Super Bowl", url: "#" },
+    location: "among 3600+ teams",
   },
 ];
 
@@ -50,19 +58,10 @@ const NewsSection = () => {
                 <div>
                   {item.text}{" "}
                   {item.link && (
-                    <a href={item.link.url} className="text-primary hover:underline">
+                    <a href={item.link.url} className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                       {item.link.text}
                     </a>
                   )}
-                  {item.links &&
-                    item.links.map((link, linkIndex) => (
-                      <span key={linkIndex}>
-                        {linkIndex > 0 && (linkIndex === item.links!.length - 1 ? ", and " : ", ")}
-                        <a href={link.url} className="text-primary hover:underline">
-                          {link.text}
-                        </a>
-                      </span>
-                    ))}
                   {item.location && ` ${item.location}`}.
                 </div>
               </li>
