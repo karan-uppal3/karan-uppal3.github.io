@@ -71,7 +71,7 @@ const HeroSection = () => {
                   Prof. Manik Varma
                 </a>, where I work on improving representation learning for retrieval models as well as analyze the inter-task relations of VLMs.
               </p>
-
+              <br>
               <p className="text-lg leading-relaxed">
                 Efficiency in data usage and model design has been the central theme of my research. 
                 I am drawn to problems where brute force is not an option—where limited labels, costly data, 
@@ -79,7 +79,7 @@ const HeroSection = () => {
                 and datasets more sample-efficient. As model sizes and data demands escalate, progress 
                 increasingly depends not only on scaling but on extracting maximal learning from minimal examples.
               </p>
-
+              <br>
               <p className="text-lg leading-relaxed">
                 I completed my Integrated M.Sc. in Mathematics and Computing at{" "}
                 <a href="http://www.iitkgp.ac.in/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
