@@ -41,7 +41,7 @@ const HeroSection = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="@/assets/Resume.pdf"
+                href="./src/assets/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
