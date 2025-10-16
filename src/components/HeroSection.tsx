@@ -1,4 +1,4 @@
-import { Mail, Github, Linkedin, FileText } from "lucide-react";
+import { Mail, Github, GraduationCap, Linkedin, FileText } from "lucide-react";
 import profileImage from "@/assets/profile-placeholder.jpg";
 
 const HeroSection = () => {
@@ -30,6 +30,15 @@ const HeroSection = () => {
                 aria-label="GitHub"
               >
                 <Github className="h-5 w-5" />
+              </a>
+              <a
+                href="https://scholar.google.com/citations?hl=en&user=xJ-bYh8AAAAJ&view_op=list_works&sortby=pubdate"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="Google Scholar"
+              >
+                <GraduationCap className="h-5 w-5" />
               </a>
               <a
                 href="https://linkedin.com/in/karan-uppal3"
