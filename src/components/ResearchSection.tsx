@@ -30,14 +30,21 @@ const HoverMedia = ({ thumbnail, hoverMedia, alt }) => {
   );
 };
 
+import taskTransferImg from "@/assets/task_graph_32B.pdf";
+import taskTransferVid from "@/assets/task_graph_32B.pdf";
+import gazeImg from "@/assets/MPI_img.gif";
+import gazeVid from "@/assets/MPI_vid.mp4";
+import banaImg from "@/assets/BANA_1.jpg";
+import banaVid from "@/assets/BANA_2.jpg";
+
 const publications = [
   {
     title: "Understanding Task Transfer in Vision-Language Models",
     authors: "Bhuvan Sachdeva*, Karan Uppal*, Abhinav Java*, Vineeth N Balasubramanian",
     venue: "Unireps Workshop @ NeurIPS 2025",
     links: [{ text: "Paper", url: "https://openreview.net/forum?id=2DwGffsVTx" }],
-    thumbnail: "/images/task-transfer.png",
-    hoverMedia: "/images/task-transfer.mp4",
+    thumbnail: taskTransferImg,
+    hoverMedia: taskTransferVid,
   },
   {
     title: "Decoding Attention from Gaze: A Benchmark Dataset and End-to-End Models",
@@ -48,8 +55,8 @@ const publications = [
       { text: "Dataset", url: "https://osf.io/28rnx/" },
       { text: "Code", url: "https://github.com/karan-uppal3/decoding-attention" },
     ],
-    thumbnail: "/images/gaze.png",
-    hoverMedia: "/images/gaze.gif",
+    thumbnail: gazeImg,
+    hoverMedia: gazeVid,
   },
   {
     title: "[RE] Background-Aware Pooling & Noise-Aware Loss for Weakly-Supervised Semantic Segmentation",
@@ -59,8 +66,8 @@ const publications = [
       { text: "Paper", url: "https://zenodo.org/record/6574677/files/article.pdf" },
       { text: "Code", url: "https://github.com/karan-uppal3/BANA" },
     ],
-    thumbnail: "/images/bana.png",
-    hoverMedia: "/images/bana.gif",
+    thumbnail: banaImg,
+    hoverMedia: banaVid,
   },
 ];
 
