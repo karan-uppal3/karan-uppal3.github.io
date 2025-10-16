@@ -3,8 +3,8 @@ name: Deploy Vite App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Deploy whenever main is updated
-  workflow_dispatch:  # Allow manual deploys
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -40,11 +40,10 @@ jobs:
           path: ./dist
 
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
