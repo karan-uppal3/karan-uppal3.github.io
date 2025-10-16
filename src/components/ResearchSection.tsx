@@ -35,7 +35,7 @@ import taskTransferVid from "@/assets/task_graph_32B.pdf";
 import gazeImg from "@/assets/MPI_img.gif";
 import gazeVid from "@/assets/MPI_vid.mp4";
 import banaImg from "@/assets/BANA_1.jpg";
-import banaVid from "@/assets/BANA_2.jpg";
+import banaVid from "@/assets/BANA_2.png";
 
 const publications = [
   {
