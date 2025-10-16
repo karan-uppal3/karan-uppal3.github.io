@@ -80,7 +80,7 @@ const HeroSection = () => {
                 increasingly depends not only on scaling but on extracting maximal learning from minimal examples.
               </p>
 
-              <p className="text-base leading-relaxed mt-6">
+              <p className="text-lg leading-relaxed">
                 I completed my Integrated M.Sc. in Mathematics and Computing at{" "}
                 <a href="http://www.iitkgp.ac.in/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   IIT Kharagpur

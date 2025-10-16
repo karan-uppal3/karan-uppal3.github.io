@@ -4,7 +4,7 @@ const publications = [
     authors: "Bhuvan Sachdeva*, Karan Uppal*, Abhinav Java*, Vineeth N Balasubramanian",
     venue: "Unireps Workshop @ NeurIPS 2025",
     links: [
-      { text: "Paper", url: "#" },
+      { text: "Paper", url: "https://openreview.net/forum?id=2DwGffsVTx" },
     ],
   },
   {
@@ -14,7 +14,7 @@ const publications = [
     links: [
       { text: "Paper", url: "https://arxiv.org/abs/2211.10966" },
       { text: "Dataset", url: "https://osf.io/28rnx/" },
-      { text: "Code", url: "https://osf.io/28rnx/" },
+      { text: "Code", url: "https://github.com/karan-uppal3/decoding-attention" },
     ],
   },
   {
