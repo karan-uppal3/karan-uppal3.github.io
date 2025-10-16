@@ -34,7 +34,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("home")}
             className="text-xl font-serif font-bold text-foreground hover:text-primary transition-colors"
           >
-            Portfolio
+            Home
           </button>
 
           {/* Desktop Navigation */}
