@@ -35,10 +35,10 @@ const HoverMedia = ({ thumbnail, hoverMedia, alt }) => {
 
 import taskTransferImg from "@/assets/task_transfer.png";
 import taskTransferVid from "@/assets/task_transfer.png";
-import gazeImg from "@/assets/MPI_img.gif";
-import gazeVid from "@/assets/MPI_vid.mp4";
-import banaImg from "@/assets/BANA_1.jpg";
-import banaVid from "@/assets/BANA_2.png";
+import gazeImg from "@/assets/gaze.png";
+import gazeVid from "@/assets/gaze.png";
+import banaImg from "@/assets/bana.png";
+import banaVid from "@/assets/bana.png";
 
 const publications = [
   {
