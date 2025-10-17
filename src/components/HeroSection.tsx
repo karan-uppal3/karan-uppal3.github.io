@@ -94,7 +94,8 @@ const HeroSection = () => {
                 <a href="http://www.iitkgp.ac.in/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   IIT Kharagpur
                 </a>. This college offered me ample opportunities that enabled me to intern at reputed institutions such as the
-                  Max Planck Institute for Intelligent Systems, Harvard University, NVIDIA and University of Warwick.
+                  Max Planck Institute for Intelligent Systems, NVIDIA, Harvard University, and University of Warwick; win competitions at American Express and IROS;
+                  and contribute to startups like Ema and Yantrakaar.
               </p>
 
             </div>

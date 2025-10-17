@@ -1,13 +1,15 @@
+import React from "react";
+
 const HoverMedia = ({ thumbnail, hoverMedia, alt }) => {
   const isVideo = hoverMedia.endsWith(".mp4");
 
   return (
-    <div className="w-48 h-32 relative overflow-hidden rounded-lg">
+    <div className="w-48 aspect-square relative overflow-hidden rounded-lg">
       {/* Static thumbnail */}
       <img
         src={thumbnail}
         alt={alt}
-        className="w-full h-full object-cover transition-opacity duration-300 hover:opacity-0"
+        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
       />
 
       {/* Hover media */}
@@ -17,21 +19,23 @@ const HoverMedia = ({ thumbnail, hoverMedia, alt }) => {
           autoPlay
           loop
           muted
-          className="absolute top-0 left-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100"
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         />
       ) : (
         <img
           src={hoverMedia}
           alt={`${alt} hover`}
-          className="absolute top-0 left-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100"
+          className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         />
       )}
     </div>
   );
 };
 
-import taskTransferImg from "@/assets/task_graph_32B.pdf";
-import taskTransferVid from "@/assets/task_graph_32B.pdf";
+// --- Import your assets
+import taskTransferImg from "@/assets/task_graph_32B.jpg";
+import taskTransferVid from "@/assets/task_graph_32B.jpg";
 import gazeImg from "@/assets/MPI_img.gif";
 import gazeVid from "@/assets/MPI_vid.mp4";
 import banaImg from "@/assets/BANA_1.jpg";
@@ -40,14 +44,16 @@ import banaVid from "@/assets/BANA_2.png";
 const publications = [
   {
     title: "Understanding Task Transfer in Vision-Language Models",
-    authors: "Bhuvan Sachdeva*, Karan Uppal*, Abhinav Java*, Vineeth N Balasubramanian",
+    authors:
+      "Bhuvan Sachdeva*, Karan Uppal*, Abhinav Java*, Vineeth N Balasubramanian",
     venue: "Unireps Workshop @ NeurIPS 2025",
     links: [{ text: "Paper", url: "https://openreview.net/forum?id=2DwGffsVTx" }],
     thumbnail: taskTransferImg,
     hoverMedia: taskTransferVid,
   },
   {
-    title: "Decoding Attention from Gaze: A Benchmark Dataset and End-to-End Models",
+    title:
+      "Decoding Attention from Gaze: A Benchmark Dataset and End-to-End Models",
     authors: "Karan Uppal, Jaeah Kim, Shashank Singh",
     venue: "Gaze Meets ML Workshop @ NeurIPS 2022",
     links: [
@@ -59,8 +65,10 @@ const publications = [
     hoverMedia: gazeVid,
   },
   {
-    title: "[RE] Background-Aware Pooling & Noise-Aware Loss for Weakly-Supervised Semantic Segmentation",
-    authors: "Aryan Mehta*, Karan Uppal*, Kaushal Jadhav*, Monish Natarajan*, Mradul Agrawal*, Debashish Chakravarty",
+    title:
+      "[RE] Background-Aware Pooling & Noise-Aware Loss for Weakly-Supervised Semantic Segmentation",
+    authors:
+      "Aryan Mehta*, Karan Uppal*, Kaushal Jadhav*, Monish Natarajan*, Mradul Agrawal*, Debashish Chakravarty",
     venue: "ReScience C Journal 2021 • Journal Showcase at NeurIPS 2022",
     links: [
       { text: "Paper", url: "https://zenodo.org/record/6574677/files/article.pdf" },
@@ -77,12 +85,15 @@ const ResearchSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-serif font-bold mb-2">Publications</h2>
-          <p className="text-sm text-muted-foreground mb-8">*denotes equal contribution</p>
+          <p className="text-sm text-muted-foreground mb-8">
+            *denotes equal contribution
+          </p>
+
           <div className="space-y-12">
             {publications.map((pub, index) => (
               <div
                 key={index}
-                className="flex flex-col md:flex-row items-center gap-6 md:gap-8"
+                className="group flex flex-col md:flex-row items-center gap-6 md:gap-8 transition-transform hover:scale-[1.01]"
               >
                 {/* Hover media component */}
                 <HoverMedia
