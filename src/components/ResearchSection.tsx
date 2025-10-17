@@ -33,9 +33,8 @@ const HoverMedia = ({ thumbnail, hoverMedia, alt }) => {
   );
 };
 
-// --- Import your assets
-import taskTransferImg from "@/assets/task_graph_32B.jpg";
-import taskTransferVid from "@/assets/task_graph_32B.jpg";
+import taskTransferImg from "@/assets/task_transfer.png";
+import taskTransferVid from "@/assets/task_transfer.png";
 import gazeImg from "@/assets/MPI_img.gif";
 import gazeVid from "@/assets/MPI_vid.mp4";
 import banaImg from "@/assets/BANA_1.jpg";
@@ -47,6 +46,7 @@ const publications = [
     authors:
       "Bhuvan Sachdeva*, Karan Uppal*, Abhinav Java*, Vineeth N Balasubramanian",
     venue: "Unireps Workshop @ NeurIPS 2025",
+    description: "Analyzing how finetuning on one perception task affects performance in other tasks in VLMs",
     links: [{ text: "Paper", url: "https://openreview.net/forum?id=2DwGffsVTx" }],
     thumbnail: taskTransferImg,
     hoverMedia: taskTransferVid,
@@ -56,6 +56,7 @@ const publications = [
       "Decoding Attention from Gaze: A Benchmark Dataset and End-to-End Models",
     authors: "Karan Uppal, Jaeah Kim, Shashank Singh",
     venue: "Gaze Meets ML Workshop @ NeurIPS 2022",
+    description: "Created a dataset and baseline models for the task of human attention decoding from gaze",
     links: [
       { text: "Paper", url: "https://arxiv.org/abs/2211.10966" },
       { text: "Dataset", url: "https://osf.io/28rnx/" },
@@ -70,6 +71,7 @@ const publications = [
     authors:
       "Aryan Mehta*, Karan Uppal*, Kaushal Jadhav*, Monish Natarajan*, Mradul Agrawal*, Debashish Chakravarty",
     venue: "ReScience C Journal 2021 • Journal Showcase at NeurIPS 2022",
+    description: "Reviewed a CVPR 2021 publication for reproducibility and extended the approach to instance segmentation",
     links: [
       { text: "Paper", url: "https://zenodo.org/record/6574677/files/article.pdf" },
       { text: "Code", url: "https://github.com/karan-uppal3/BANA" },
@@ -84,11 +86,8 @@ const ResearchSection = () => {
     <section id="research" className="py-20">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-serif font-bold mb-2">Publications</h2>
-          <p className="text-sm text-muted-foreground mb-8">
-            *denotes equal contribution
-          </p>
-
+          <h2 className="text-3xl font-serif font-bold mb-2">Selected Publications</h2>
+          <p className="text-sm text-muted-foreground mb-8">*denotes equal contribution</p>
           <div className="space-y-12">
             {publications.map((pub, index) => (
               <div
@@ -104,21 +103,24 @@ const ResearchSection = () => {
 
                 {/* Publication info */}
                 <div className="flex-1 space-y-1">
-                  <h3 className="text-lg font-semibold">{pub.title}</h3>
-                  <p className="text-sm text-muted-foreground">{pub.authors}</p>
-                  <p className="text-sm italic text-muted-foreground">{pub.venue}</p>
-                  <div className="flex gap-4 text-sm">
-                    {pub.links.map((link, linkIndex) => (
-                      <a
-                        key={linkIndex}
-                        href={link.url}
-                        className="text-primary hover:underline"
-                      >
-                        [{link.text}]
-                      </a>
-                    ))}
-                  </div>
+                <h3 className="text-lg font-semibold">{pub.title}</h3>
+                <p className="text-sm text-muted-foreground">{pub.authors}</p>
+                <p className="text-sm italic text-muted-foreground">{pub.venue}</p>
+                {pub.description && (
+                  <p className="text-sm text-muted-foreground">{pub.description}</p>
+                )}
+                <div className="flex gap-4 text-sm">
+                  {pub.links.map((link, linkIndex) => (
+                    <a
+                      key={linkIndex}
+                      href={link.url}
+                      className="text-primary hover:underline"
+                    >
+                      [{link.text}]
+                    </a>
+                  ))}
                 </div>
+              </div>
               </div>
             ))}
           </div>
