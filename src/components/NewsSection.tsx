@@ -1,5 +1,17 @@
 const newsItems = [
   {
+    date: "Sept 2025",
+    text: "Paper on",
+    link: { text: "understanding task relations in VLMs", url: "#" },
+    location: "accepted at the Unireps Workshop @ NeurIPS 2025",
+  },
+  {
+    date: "Jul 2025",
+    text: "Position paper on",
+    link: { text: "safety aware design of foundational models", url: "#" },
+    location: "accepted at the Workshop on Reliable and Responsible Foundation Models @ ICML 2025",
+  },
+  {
     date: "Jul 2024",
     text: "Started as Research Fellow at",
     link: { text: "Microsoft Research India", url: "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" },
@@ -9,38 +21,8 @@ const newsItems = [
     date: "May 2024",
     text: "Graduated from",
     link: { text: "IIT Kharagpur", url: "http://www.iitkgp.ac.in/" },
-    location: "with Integrated M.Sc. in Mathematics and Computing (CGPA: 9.18/10.0)",
-  },
-  {
-    date: "Apr 2024",
-    text: "Completed AI Residency at",
-    link: { text: "Ema (YC S23)", url: "#" },
-    location: "focusing on agentic AI and LLM-powered enterprise solutions",
-  },
-  {
-    date: "Aug 2023",
-    text: "Concluded fellowship at",
-    link: { text: "University of Warwick and UN-REDD", url: "#" },
-    location: "as Data Science for Social Good Fellow",
-  },
-  {
-    date: "Jul 2022",
-    text: "Completed DAAD WISE Scholarship at",
-    link: { text: "Max Planck Institute for Intelligent Systems", url: "https://is.mpg.de/" },
-    location: "in Tübingen, Germany",
-  },
-  {
-    date: "Aug 2021",
-    text: "Research internship at",
-    link: { text: "Harvard University", url: "https://vcg.seas.harvard.edu/" },
-    location: "achieving 1st place on CREMI leaderboard",
-  },
-  {
-    date: "Nov 2022",
-    text: "2nd place in",
-    link: { text: "American Express Campus Super Bowl", url: "#" },
-    location: "among 3600+ teams",
-  },
+    location: "with Integrated M.Sc. in Mathematics and Computing",
+  }
 ];
 
 const NewsSection = () => {
