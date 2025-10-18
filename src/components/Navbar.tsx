@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import resume from "@/assets/resume.pdf"
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,6 +23,10 @@ const Navbar = () => {
     }
   };
 
+  const openResume = () => {
+    window.open(resume, "_blank"); // <-- put your resume path here
+  };
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -34,7 +39,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("home")}
             className="text-xl font-serif font-bold text-foreground hover:text-primary transition-colors"
           >
-            Home
+            Karan Uppal
           </button>
 
           {/* Desktop Navigation */}
@@ -50,6 +55,12 @@ const Navbar = () => {
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide"
             >
               Research
+            </button>
+            <button
+              onClick={openResume}
+              className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide"
+            >
+              Resume
             </button>
             <button
               onClick={() => scrollToSection("news")}
@@ -85,6 +96,12 @@ const Navbar = () => {
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide text-left"
               >
                 Research
+              </button>
+              <button
+                onClick={openResume}
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide text-left"
+              >
+                Resume
               </button>
               <button
                 onClick={() => scrollToSection("news")}

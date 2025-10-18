@@ -1,5 +1,6 @@
 import { Mail, Github, GraduationCap, Linkedin, FileText } from "lucide-react";
 import profileImage from "@/assets/profile-placeholder.jpg";
+import resume from "@/assets/resume.pdf"
 
 const HeroSection = () => {
   return (
@@ -50,7 +51,7 @@ const HeroSection = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="./src/assets/Resume.pdf"
+                href={resume}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
