@@ -8,7 +8,7 @@ const newsItems = [
   {
     date: "Jul 2025",
     text: "Position paper on",
-    link: { text: "safety aware design of foundational models", url: "#" },
+    link: { text: "safety aware design of foundational models", url: "https://openreview.net/forum?id=XfyLKIpxl2" },
     location: "accepted at the Workshop on Reliable and Responsible Foundation Models @ ICML 2025",
   },
   {
