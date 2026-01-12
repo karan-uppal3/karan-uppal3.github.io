@@ -50,7 +50,10 @@ const publications = [
       "Bhuvan Sachdeva*, Karan Uppal*, Abhinav Java*, Vineeth N Balasubramanian",
     venue: "Unireps Workshop @ NeurIPS 2025",
     description: "Analyzing how finetuning on one perception task affects performance in other tasks in VLMs",
-    links: [{ text: "Paper", url: "https://openreview.net/forum?id=2DwGffsVTx" }],
+    links: [
+      { text: "Paper", url: "https://arxiv.org/abs/2511.18787" },
+      { text: "Project Page", url: "https://aka.ms/task-transfer-vlms" },
+    ],
     thumbnail: taskTransferImg,
     hoverMedia: taskTransferVid,
   },
