@@ -48,7 +48,7 @@ const publications = [
     title: "Understanding Task Transfer in Vision-Language Models",
     authors:
       "Bhuvan Sachdeva*, Karan Uppal*, Abhinav Java*, Vineeth N Balasubramanian",
-    venue: "Unireps Workshop @ NeurIPS 2025",
+    venue: "CVPR 2026 | Unireps Workshop @ NeurIPS 2025",
     description: "Analyzing how finetuning on one perception task affects performance in other tasks in VLMs",
     links: [
       { text: "Paper", url: "https://arxiv.org/abs/2511.18787" },

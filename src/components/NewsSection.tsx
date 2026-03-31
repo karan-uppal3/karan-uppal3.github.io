@@ -1,9 +1,15 @@
 const newsItems = [
   {
-    date: "Sept 2025",
+    date: "Feb 2026",
     text: "Paper on",
-    link: { text: "understanding task relations in VLMs", url: "#" },
-    location: "accepted at the Unireps Workshop @ NeurIPS 2025",
+    link: { text: "understanding task relations in VLMs", url: "https://aka.ms/task-transfer-vlms" },
+    location: "accepted at CVPR 2026.",
+  },
+  {
+    date: "Dec 2025",
+    text: "Attending",
+    link: { text: "NeurIPS 2025", url: "https://neurips.cc/" },
+    location: "in San Diego, hope to see you there!",
   },
   {
     date: "Jul 2025",
