@@ -1,9 +1,15 @@
 const newsItems = [
   {
+    date: "Apr 2026",
+    text: "Going to CVPR 2026 for the oral presentation of",
+    link: { text: "Understanding Task Transfer in Vision-Language Models", url: "https://aka.ms/task-transfer-vlms" },
+    location: ", do connect if you'll be there!",
+  },
+  {
     date: "Feb 2026",
     text: "Paper on",
     link: { text: "understanding task relations in VLMs", url: "https://aka.ms/task-transfer-vlms" },
-    location: "accepted at CVPR 2026.",
+    location: "accepted at CVPR 2026",
   },
   {
     date: "Dec 2025",
@@ -50,7 +56,7 @@ const NewsSection = () => {
                       {item.link.text}
                     </a>
                   )}
-                  {item.location && ` ${item.location}`}.
+                  {item.location && ` ${item.location}`}
                 </div>
               </li>
             ))}
