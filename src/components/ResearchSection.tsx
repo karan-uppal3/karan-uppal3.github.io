@@ -46,8 +46,12 @@ import harvardpic from "@/assets/harvard.png"
 const publications = [
   {
     title: "Understanding Task Transfer in Vision-Language Models",
-    authors:
-      "Bhuvan Sachdeva*, Karan Uppal*, Abhinav Java*, Vineeth N Balasubramanian",
+    authors: [
+      { name: "Bhuvan Sachdeva*", highlight: false },
+      { name: "Karan Uppal*", highlight: true },
+      { name: "Abhinav Java*", highlight: false },
+      { name: "Vineeth N Balasubramanian", highlight: false },
+    ],
     venue: [
       { text: "CVPR 2026 ", highlight: false },
       { text: "(Oral)", highlight: true },
@@ -64,7 +68,11 @@ const publications = [
   {
     title:
       "Decoding Attention from Gaze: A Benchmark Dataset and End-to-End Models",
-    authors: "Karan Uppal, Jaeah Kim, Shashank Singh",
+    authors: [
+      { name: "Karan Uppal", highlight: true },
+      { name: "Jaeah Kim", highlight: false },
+      { name: "Shashank Singh", highlight: false },
+    ],
     venue: [
       { text: "Gaze Meets ML Workshop @ NeurIPS 2022", highlight: false},
     ],
@@ -80,8 +88,14 @@ const publications = [
   {
     title:
       "[RE] Background-Aware Pooling & Noise-Aware Loss for Weakly-Supervised Semantic Segmentation",
-    authors:
-      "Aryan Mehta*, Karan Uppal*, Kaushal Jadhav*, Monish Natarajan*, Mradul Agrawal*, Debashish Chakravarty",
+    authors: [
+      { name: "Aryan Mehta*", highlight: false },
+      { name: "Karan Uppal*", highlight: true },
+      { name: "Kaushal Jadhav*", highlight: false },
+      { name: "Monish Natarajan*", highlight: false },
+      { name: "Mradul Agrawal*", highlight: false },
+      { name: "Debashish Chakravarty", highlight: false },
+    ],
     venue: [
       { text: "ReScience C Journal 2021 | Journal Showcase at NeurIPS 2022", highlight: false},
     ],
@@ -120,7 +134,17 @@ const ResearchSection = () => {
                 {/* Publication info */}
                 <div className="flex-1 space-y-1">
                 <h3 className="text-lg font-semibold">{pub.title}</h3>
-                <p className="text-sm text-muted-foreground">{pub.authors}</p>
+                <p className="text-sm text-muted-foreground">
+                  {pub.authors.map((author, i) => (
+                    <span
+                      key={i}
+                      className={author.highlight ? "font-semibold text-foreground" : ""}
+                    >
+                      {author.name}
+                      {i < pub.authors.length - 1 ? ", " : ""}
+                    </span>
+                  ))}
+                </p>
                 <p className="text-sm italic text-muted-foreground">
                   {pub.venue.map((part, i) => (
                     <span
