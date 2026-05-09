@@ -1,8 +1,7 @@
 const newsItems = [
   {
     date: "Apr 2026",
-    text: "Going to CVPR 2026 an oral presentation",
-    location: ", do connect if you'll be there!",
+    text: "Going to CVPR 2026 for an oral presentation, do connect if you'll be there!",
   },
   {
     date: "Feb 2026",
