@@ -1,8 +1,7 @@
 const newsItems = [
   {
     date: "Apr 2026",
-    text: "Going to CVPR 2026 for the oral presentation of",
-    link: { text: "Understanding Task Transfer in Vision-Language Models", url: "https://aka.ms/task-transfer-vlms" },
+    text: "Going to CVPR 2026 an oral presentation",
     location: ", do connect if you'll be there!",
   },
   {
