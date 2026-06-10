@@ -61,6 +61,7 @@ const publications = [
     links: [
       { text: "Paper", url: "https://arxiv.org/abs/2511.18787" },
       { text: "Project Page", url: "https://aka.ms/task-transfer-vlms" },
+      { text: "Talk@CVPR", url: "https://youtu.be/5NVe9TJLcFQ"}
     ],
     thumbnail: taskTransferImg,
     hoverMedia: taskTransferVid,
