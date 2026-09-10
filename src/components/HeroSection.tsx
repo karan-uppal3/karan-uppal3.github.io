@@ -91,7 +91,7 @@ const HeroSection = () => {
               </p>
               <br></br>
               <p className="text-lg leading-relaxed">
-                Prior to joining MSR, I completed an Integrated M.Sc. in Mathematics and Computing at{" "}
+                Prior to joining MSR, I completed an Integrated M.Sc. in Mathematics and Computing at the{" "}
                 <a href="http://www.iitkgp.ac.in/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   Indian Institute of Technology (IIT) Kharagpur
                 </a>. This college offered me ample opportunities that enabled me to intern at reputed institutions such as the
