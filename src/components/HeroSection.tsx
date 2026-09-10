@@ -67,13 +67,14 @@ const HeroSection = () => {
             <div className="prose prose-lg max-w-none">
               <br></br>
               <p className="text-lg leading-relaxed">
-                Hello! I am a PhD student in the Department of Computer Science at <a href="https://samueli.ucla.edu/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+                Hello! I am a PhD student at the{" "}
+                <a href="https://samueli.ucla.edu/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   University of California, Los Angeles
                 </a>.
               </p>
               <br></br>
               <p className="text-lg leading-relaxed">
-                I was a Research Fellow at{" "}
+                Previously, I worked as a Research Fellow at{" "}
                 <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   Microsoft Research India
                 </a>{" "}
@@ -86,13 +87,13 @@ const HeroSection = () => {
                 </a>, and{" "}
                 <a href="https://www.microsoft.com/en-us/research/people/manik/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   Prof. Manik Varma
-                </a>, where I worked on improving representation learning for retrieval models as well as analyzing the intertask relations of VLMs.
+                </a>, on improving representation learning for retrieval models as well as analyzing intertask relations of VLMs.
               </p>
               <br></br>
               <p className="text-lg leading-relaxed">
                 Prior to joining MSR, I completed an Integrated M.Sc. in Mathematics and Computing at{" "}
                 <a href="http://www.iitkgp.ac.in/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
-                  IIT Kharagpur
+                  Indian Institute of Technology (IIT) Kharagpur
                 </a>. This college offered me ample opportunities that enabled me to intern at reputed institutions such as the
                   Max Planck Institute for Intelligent Systems, NVIDIA, Harvard University, and University of Warwick; win competitions at American Express and IROS;
                   and contribute to startups like Ema and Yantrakaar.
