@@ -14,24 +14,6 @@ const newsItems = [
     text: "Attending",
     link: { text: "NeurIPS 2025", url: "https://neurips.cc/" },
     location: "in San Diego, hope to see you there!",
-  },
-  {
-    date: "Jul 2025",
-    text: "Position paper on",
-    link: { text: "safety aware design of foundational models", url: "https://openreview.net/forum?id=XfyLKIpxl2" },
-    location: "accepted at the Workshop on Reliable and Responsible Foundation Models @ ICML 2025",
-  },
-  {
-    date: "Jul 2024",
-    text: "Started as Research Fellow at",
-    link: { text: "Microsoft Research India", url: "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" },
-    location: "working on VLMs and embedding architectures",
-  },
-  {
-    date: "May 2024",
-    text: "Graduated from",
-    link: { text: "IIT Kharagpur", url: "http://www.iitkgp.ac.in/" },
-    location: "with Integrated M.Sc. in Mathematics and Computing",
   }
 ];
 

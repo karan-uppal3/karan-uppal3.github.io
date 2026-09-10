@@ -65,8 +65,15 @@ const HeroSection = () => {
           {/* Main Content */}
           <div className="space-y-6">
             <div className="prose prose-lg max-w-none">
+              <br></br>
               <p className="text-lg leading-relaxed">
-                I am a Research Fellow at{" "}
+                Hello! I am a PhD student in the Department of Computer Science at <a href="https://samueli.ucla.edu/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+                  University of California, Los Angeles
+                </a>.
+              </p>
+              <br></br>
+              <p className="text-lg leading-relaxed">
+                I was a Research Fellow at{" "}
                 <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   Microsoft Research India
                 </a>{" "}
@@ -79,19 +86,11 @@ const HeroSection = () => {
                 </a>, and{" "}
                 <a href="https://www.microsoft.com/en-us/research/people/manik/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   Prof. Manik Varma
-                </a>, where I work on improving representation learning for retrieval models as well as analyze the inter-task relations of VLMs.
+                </a>, where I worked on improving representation learning for retrieval models as well as analyzing the intertask relations of VLMs.
               </p>
               <br></br>
               <p className="text-lg leading-relaxed">
-                Efficiency in data usage and model design has been the central theme of my research. 
-                I am drawn to problems where brute force is not an option—where limited labels, costly data, 
-                or compute constraints force us to be creative. I believe progress depends on making models 
-                and datasets more sample-efficient. As model sizes and data demands escalate, progress 
-                increasingly depends not only on scaling but on extracting maximal learning from minimal examples.
-              </p>
-              <br></br>
-              <p className="text-lg leading-relaxed">
-                I completed my Integrated M.Sc. in Mathematics and Computing at{" "}
+                Prior to joining MSR, I completed an Integrated M.Sc. in Mathematics and Computing at{" "}
                 <a href="http://www.iitkgp.ac.in/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   IIT Kharagpur
                 </a>. This college offered me ample opportunities that enabled me to intern at reputed institutions such as the
