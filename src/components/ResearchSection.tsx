@@ -1,38 +1,5 @@
 import React from "react";
 
-const HoverMedia = ({ thumbnail, hoverMedia, alt }) => {
-  const isVideo = hoverMedia.endsWith(".mp4");
-
-  return (
-    <div className="w-74 aspect-square relative overflow-hidden rounded-lg">
-      {/* Static thumbnail */}
-      <img
-        src={thumbnail}
-        alt={alt}
-        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
-      />
-
-      {/* Hover media */}
-      {isVideo ? (
-        <video
-          src={hoverMedia}
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-        />
-      ) : (
-        <img
-          src={hoverMedia}
-          alt={`${alt} hover`}
-          className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-        />
-      )}
-    </div>
-  );
-};
-
 import taskTransferImg from "@/assets/task_transfer.png";
 import swiftImg from "@/assets/swift.png";
 import moveImg from "@/assets/move.png";
@@ -113,15 +80,17 @@ const ResearchSection = () => {
             {publications.map((pub, index) => (
               <div
                 key={index}
-                className="group flex flex-col md:flex-row items-center gap-6 md:gap-8 transition-transform hover:scale-[1.01]"
+                className="flex flex-col md:flex-row items-center gap-6 md:gap-8"
               >
-                {/* Hover media component */}
                 <HoverMedia
                   thumbnail={pub.thumbnail}
-                  hoverMedia={pub.hoverMedia}
                   alt={pub.title}
                 />
 
+                <div className="flex-1 space-y-1">
+                  {/* Keep your existing publication information here */}
+                </div>
+              </div>
                 {/* Publication info */}
                 <div className="flex-1 space-y-1">
                 <h3 className="text-lg font-semibold">{pub.title}</h3>
