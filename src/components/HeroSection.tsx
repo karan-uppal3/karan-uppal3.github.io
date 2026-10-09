@@ -72,10 +72,10 @@ const HeroSection = () => {
                   University of California, Los Angeles
                 </a>, advised by 
                 <a href="https://vnpeng.net/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
-                 Prof. Nanyun Peng
+                  Prof. Nanyun Peng
                 </a> and 
                 <a href="http://web.cs.ucla.edu/~kwchang/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
-                 Prof. Kai-Wei Chang
+                  Prof. Kai-Wei Chang
                 </a>.
               </p>
               <br></br>
