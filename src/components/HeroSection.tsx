@@ -12,7 +12,7 @@ const HeroSection = () => {
             <img
               src={profileImage}
               alt="Karan Uppal Profile"
-              className="w-64 h-64 rounded-full object-cover mb-6 shadow-lg"
+              className="w-68 h-68 rounded-full object-cover mb-6 shadow-lg"
             />
             <h1 className="text-4xl font-serif font-bold mb-2">Karan Uppal</h1>
             <div className="flex gap-4 mt-4">
@@ -70,11 +70,11 @@ const HeroSection = () => {
                 Hello! I am a PhD student at the{" "}
                 <a href="https://samueli.ucla.edu/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   University of California, Los Angeles
-                </a>, advised by 
+                </a>, advised by{" "}
                 <a href="https://vnpeng.net/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   Prof. Nanyun Peng
-                </a> and 
-                <a href="http://web.cs.ucla.edu/~kwchang/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+                </a> and {" "}
+                <a href="https://web.cs.ucla.edu/~kwchang/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   Prof. Kai-Wei Chang
                 </a>.
               </p>
