@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
-import resume from "@/assets/resume.pdf"
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -53,7 +52,7 @@ const Navbar = () => {
               Research
             </button>
             <a
-              href={resume}
+              href="/Resume_Karan.pdf"
               download="Resume_Karan.pdf"
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide"
             >
@@ -95,7 +94,7 @@ const Navbar = () => {
                 Research
               </button>
               <a
-                href={resume}
+                href="/Resume_Karan.pdf"
                 download="Resume_Karan.pdf"
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide"
               >
