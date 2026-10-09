@@ -40,7 +40,7 @@ import moveImg from "@/assets/move.png";
 
 const publications = [
   {
-    title: "Understanding Task Transfer in Vision-Language Models",
+    title: "MoVE: Mixture-of-Vocabulary-Experts for Improved Representation Learning",
     authors: [
       { name: "Karan Uppal", highlight: true },
       { name: "Nagarajan Natarajan", highlight: false },
