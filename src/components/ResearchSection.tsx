@@ -4,7 +4,7 @@ const HoverMedia = ({ thumbnail, hoverMedia, alt }) => {
   const isVideo = hoverMedia.endsWith(".mp4");
 
   return (
-    <div className="w-48 aspect-square relative overflow-hidden rounded-lg">
+    <div className="w-74 aspect-square relative overflow-hidden rounded-lg">
       {/* Static thumbnail */}
       <img
         src={thumbnail}
