@@ -23,10 +23,6 @@ const Navbar = () => {
     }
   };
 
-  const openResume = () => {
-    window.open(resume, "_blank"); // <-- put your resume path here
-  };
-
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -56,12 +52,13 @@ const Navbar = () => {
             >
               Research
             </button>
-            <button
-              onClick={openResume}
+            <a
+              href={resume}
+              download="Resume_Karan.pdf"
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide"
             >
               Resume
-            </button>
+            </a>
             <button
               onClick={() => scrollToSection("news")}
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide"
@@ -97,12 +94,13 @@ const Navbar = () => {
               >
                 Research
               </button>
-              <button
-                onClick={openResume}
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide text-left"
+              <a
+                href={resume}
+                download="Resume_Karan.pdf"
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide"
               >
                 Resume
-              </button>
+              </a>
               <button
                 onClick={() => scrollToSection("news")}
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wide text-left"
