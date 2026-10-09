@@ -78,65 +78,69 @@ const ResearchSection = () => {
           <p className="text-sm text-muted-foreground mb-8">*denotes equal contribution</p>
           <div className="space-y-12">
             {publications.map((pub, index) => (
-              <div
-                key={index}
-                className="flex flex-col md:flex-row items-center gap-6 md:gap-8"
-              >
-                <HoverMedia
-                  thumbnail={pub.thumbnail}
-                  alt={pub.title}
-                />
+          <div
+            key={index}
+            className="flex flex-col md:flex-row items-center gap-6 md:gap-8"
+          >
+            {/* Publication image */}
+            <div className="w-64 aspect-square shrink-0 relative overflow-hidden rounded-lg">
+              <img
+                src={pub.thumbnail}
+                alt={pub.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
 
-                <div className="flex-1 space-y-1">
-                  {/* Keep your existing publication information here */}
-                </div>
-              </div>
-                {/* Publication info */}
-                <div className="flex-1 space-y-1">
-                <h3 className="text-lg font-semibold">{pub.title}</h3>
+            {/* Publication information */}
+            <div className="flex-1 space-y-1">
+              <h3 className="text-lg font-semibold">{pub.title}</h3>
+
+              <p className="text-sm text-muted-foreground">
+                {pub.authors.map((author, i) => (
+                  <span
+                    key={i}
+                    className={
+                      author.highlight ? "font-semibold text-foreground" : ""
+                    }
+                  >
+                    {author.name}
+                    {i < pub.authors.length - 1 ? ", " : ""}
+                  </span>
+                ))}
+              </p>
+
+              <p className="text-sm italic text-muted-foreground">
+                {pub.venue.map((part, i) => (
+                  <span
+                    key={i}
+                    className={part.highlight ? "text-red-600 font-semibold" : ""}
+                  >
+                    {part.text}
+                  </span>
+                ))}
+              </p>
+
+              {pub.description && (
                 <p className="text-sm text-muted-foreground">
-                  {pub.authors.map((author, i) => (
-                    <span
-                      key={i}
-                      className={author.highlight ? "font-semibold text-foreground" : ""}
-                    >
-                      {author.name}
-                      {i < pub.authors.length - 1 ? ", " : ""}
-                    </span>
-                  ))}
+                  {pub.description}
                 </p>
-                <p className="text-sm italic text-muted-foreground">
-                  {pub.venue.map((part, i) => (
-                    <span
-                      key={i}
-                      className={part.highlight ? "text-red-600 font-semibold" : ""}
-                    >
-                      {part.text}
-                    </span>
-                  ))}
-                </p>
-                {pub.description && (
-                  <p className="text-sm text-muted-foreground">{pub.description}</p>
-                )}
-                <div className="flex gap-4 text-sm">
-                  {pub.links.map((link, linkIndex) => (
-                    <a
-                      key={linkIndex}
-                      href={link.url}
-                      className="text-primary hover:underline"
-                    >
-                      [{link.text}]
-                    </a>
-                  ))}
-                </div>
+              )}
+
+              <div className="flex gap-4 text-sm">
+                {pub.links.map((link, linkIndex) => (
+                  <a
+                    key={linkIndex}
+                    href={link.url}
+                    className="text-primary hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    [{link.text}]
+                  </a>
+                ))}
               </div>
-              </div>
-            ))}
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+        ))}
 
 export default ResearchSection;
