@@ -34,16 +34,26 @@ const HoverMedia = ({ thumbnail, hoverMedia, alt }) => {
 };
 
 import taskTransferImg from "@/assets/task_transfer.png";
-import taskTransferVid from "@/assets/task_transfer.png";
-import gazeImg from "@/assets/MPI_img.gif";
-import gazeVid from "@/assets/MPI_vid.mp4";
-import banaImg from "@/assets/BANA_1.jpg";
-import banaVid from "@/assets/BANA_2.png";
-import msrpic from "@/assets/ms_logo.jpg"
-import mpipic from "@/assets/mpi.png"
-import harvardpic from "@/assets/harvard.png"
+import swiftImg from "@/assets/swift.png";
+import moveImg from "@/assets/move.png";
+
 
 const publications = [
+  {
+    title: "Understanding Task Transfer in Vision-Language Models",
+    authors: [
+      { name: "Karan Uppal", highlight: true },
+      { name: "Nagarajan Natarajan", highlight: false },
+      { name: "Manik Varma", highlight: false },
+    ],
+    venue: [
+      { text: "Under review ", highlight: false },
+    ],
+    description: "Enabling large vocabularies in encoder-only models, boosting performance and reducing latency",
+    links: [],
+    thumbnail: moveImg,
+    hoverMedia: moveImg,
+  },
   {
     title: "Understanding Task Transfer in Vision-Language Models",
     authors: [
@@ -64,49 +74,29 @@ const publications = [
       { text: "Talk@CVPR", url: "https://youtu.be/5NVe9TJLcFQ"}
     ],
     thumbnail: taskTransferImg,
-    hoverMedia: taskTransferVid,
+    hoverMedia: taskTransferImg,
   },
   {
-    title:
-      "Decoding Attention from Gaze: A Benchmark Dataset and End-to-End Models",
+    title: "Swift Sampling: Selecting Temporal Surprises via Taylor Series",
     authors: [
-      { name: "Karan Uppal", highlight: true },
-      { name: "Jaeah Kim", highlight: false },
-      { name: "Shashank Singh", highlight: false },
-    ],
-    venue: [
-      { text: "Gaze Meets ML Workshop @ NeurIPS 2022", highlight: false},
-    ],
-    description: "Created a dataset and baseline models for the task of human attention decoding from gaze",
-    links: [
-      { text: "Paper", url: "https://arxiv.org/abs/2211.10966" },
-      { text: "Dataset", url: "https://osf.io/28rnx/" },
-      { text: "Code", url: "https://github.com/karan-uppal3/decoding-attention" },
-    ],
-    thumbnail: gazeImg,
-    hoverMedia: gazeVid,
-  },
-  {
-    title:
-      "[RE] Background-Aware Pooling & Noise-Aware Loss for Weakly-Supervised Semantic Segmentation",
-    authors: [
-      { name: "Aryan Mehta*", highlight: false },
+      { name: "Dahye Kim", highlight: false },
+      { name: "Bhuvan Sachdeva*", highlight: false },
       { name: "Karan Uppal*", highlight: true },
-      { name: "Kaushal Jadhav*", highlight: false },
-      { name: "Monish Natarajan*", highlight: false },
-      { name: "Mradul Agrawal*", highlight: false },
-      { name: "Debashish Chakravarty", highlight: false },
+      { name: "Naman Gupta*", highlight: false },
+      { name: "Vineeth N. Balasubramanian", highlight: false },
+      { name: "Deepti Ghadiyaram", highlight: false },
     ],
     venue: [
-      { text: "ReScience C Journal 2021 | Journal Showcase at NeurIPS 2022", highlight: false},
+      { text: "NeurIPS 2026 ", highlight: false },
     ],
-    description: "Reviewed a CVPR 2021 publication for reproducibility and extended the approach to instance segmentation",
+    description: "Training-free frame selection algorithm that automatically identifies high-information moments in a video",
     links: [
-      { text: "Paper", url: "https://zenodo.org/record/6574677/files/article.pdf" },
-      { text: "Code", url: "https://github.com/karan-uppal3/BANA" },
+      { text: "Paper", url: "https://arxiv.org/abs/2605.22678" },
+      { text: "Project Page", url: "https://kim-dahye.github.io/swift-sampling/" },
+      { text: "Code", url: "https://github.com/kim-dahye/SwiftSampling"}
     ],
-    thumbnail: banaImg,
-    hoverMedia: banaVid,
+    thumbnail: swiftImg,
+    hoverMedia: swiftImg,
   },
 ];
 

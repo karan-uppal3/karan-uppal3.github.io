@@ -70,6 +70,12 @@ const HeroSection = () => {
                 Hello! I am a PhD student at the{" "}
                 <a href="https://samueli.ucla.edu/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   University of California, Los Angeles
+                </a>, advised by 
+                <a href="https://vnpeng.net/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+                Prof. Nanyun Peng
+                </a> and 
+                <a href="http://web.cs.ucla.edu/~kwchang/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+                Prof. Kai-Wei Chang
                 </a>.
               </p>
               <br></br>
@@ -88,15 +94,10 @@ const HeroSection = () => {
                 <a href="https://www.microsoft.com/en-us/research/people/manik/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   Prof. Manik Varma
                 </a>, on improving representation learning for retrieval models as well as analyzing intertask relations of VLMs.
-              </p>
-              <br></br>
-              <p className="text-lg leading-relaxed">
                 Prior to joining MSR, I completed an Integrated M.Sc. in Mathematics and Computing at the{" "}
                 <a href="http://www.iitkgp.ac.in/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
                   Indian Institute of Technology (IIT) Kharagpur
-                </a>. This college offered me ample opportunities that enabled me to intern at reputed institutions such as the
-                  Max Planck Institute for Intelligent Systems, NVIDIA, Harvard University, and University of Warwick; win competitions at American Express and IROS;
-                  and contribute to startups like Ema and Yantrakaar.
+                </a>.
               </p>
 
             </div>
